@@ -6,7 +6,5 @@ do {
 let bp = 0
 for(let i = 2; i <= N; i++) {
     bp = Math.pow(i, 2)
-    if (bp % 2 === 0) {
-        document.write(`${bp} `);
-    }
+    document.write(`${bp} `);
 }
